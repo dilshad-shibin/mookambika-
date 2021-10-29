@@ -390,185 +390,138 @@
 :: 3.0 WELCOME AREA TO Start CSS
 ****************************** */
 @media(max-width: 991px){
-    .welcome-area{
-        height: 190vh;
+    .navbar{
+        padding-top: 0;
     }
-    .order-1-991{
-        order: 1;
-    }
-    .order-2-991{
-        order: 2;
-    }
-    .product-content{
-        height: 780px;
-        flex-direction: column;
-    }
-    .product-content .left-content{
-        margin-bottom: 50px;
-    }
-    .elec-sec{
-        margin-bottom: 30px;
-    }
-    .elec-img img{
-        width: 100%;
-    }
-    .emfield-box img{
-        width: 100%;
-    }
-    .pr-3px{
-        padding-right: 0 !important;
-        margin-bottom: 25px;
-    }
-    .pl-3px{
-        padding-left: 0 !important;
-    }
-    .about-area{
-        height: 920px;
-    }
-    .about-content {
-        padding-left: 0px;
-        margin-bottom: 25px;
+    .navbar-brand .navbar-brand-regular{
+        max-width: 330px;
     }
     .enq-top{
-        display: block;
-        background-color: #185cc9;
+        background-color: #21227c;
         color: #fff;
-        padding: 10px 22px;
-        font-size: 14px;
-        letter-spacing: 1px;
-        font-weight: 600;
-        text-transform: uppercase;
+        padding: 12px 35px;
+        border-radius: 5px;
         border: none;
-        outline: none;
+        font-size: 16px;
     }
-    .welcome-form{
-        margin-bottom: 25px;
+    .affiliated-area{
+        text-align: center;
     }
 }
 
 @media(max-width: 767px){
-    .pr-0{
-        padding-right: 15px !important;
+    .barch-main .head h1{
+        font-size: 55px;
     }
-    .pl-5{
-        padding-left: 15px !important;
+    .barch-main .head p{
+        font-size: 24px;
     }
-    .pr-3px{
-        margin-bottom: 5px;
-        padding: 0 15px !important;
+    .barch-main .content p {
+        color: #2a2a2a;
+        font-size: 17px;
+        line-height: 30px;
+        max-width: inherit;
+        margin-bottom: 65px;
+        font-weight: 400;
     }
-    .pl-3px{
-        padding: 0 15px !important;
+    .bg-top{
+        position: absolute;
+        background-image: url(../img/bg/barch-top.png);
+        background-position: center;
+        top: 0;
+        left: 0;
+        max-width: 200px;
+        width: 200px;
+        height: 200px;
     }
-    .footer-sec{
-        text-align: center;
+    .bg-bottom{
+        position: absolute;
+        background-image: url(../img/bg/barch-bottom.png);
+        background-position: center;
+        bottom: 0;
+        right: 0;
+        max-width: 200px;
+        width: 200px;
+        height: 200px;
     }
-    .footer-logo{
-        margin-bottom: 20px;
-    }
-    .social-icons{
-        margin-bottom: 20px;
-    }
-    .welcome-area {
-        height: 170vh;
+    .b-arch-area{
+        height: auto;
+        padding-bottom: 80px;
     }
 }
 
 @media(max-width:575px){
-    .welcome-area {
-        height: 190vh;
+    .welcome-area{
+        height: 380px;
     }
-    .welcome-thumb {
-        margin-bottom: 35px;
-    }
-    .years-exp{
-        position: absolute;
-        top: -630px;
-        width: 90%;
-    }
-    .years-exp .number-count .value span{
-        font-size: 30px;
-    }
-    .years-exp .number-count{
-        padding-right: 10px;
-    }
-    .welcome-intro > h3{
-        font-size: 18px;
-    }
-    .welcome-intro > h1{
-        font-size: 32px;
-    }
-    .years-exp .number-count .para p{
-        font-size: 12px;
-        line-height: 15px;
-    }
-    .years-exp .place-count{
-        margin-left: 15px;
-    }
-    .welcome-form{
-        padding: 45px 25px;
-        margin-top: 140px;
-    }
-    .years-exp .number-count .value h2{
-        font-size: 30px;
-        line-height: 0.8;
-    }
-    .years-exp .place-count h2 span{
-        font-size: 12px;
-    }
-    .years-exp .place-count h2{
-        font-size: 25px;
-        line-height: 1;
-    }
-    .welcome-intro{
-        margin-top: 45px;
-        margin-bottom: 35px;
-    }
-    .product-head h1{
-        font-size: 35px;
-    }
-    .product-content{
-        padding: 60px 32px;
-        height: 585px;
-    }
-    .electro-box{
-        padding: 25px;
-    }
-    .electro-head h2{
-        font-size: 25px;
-    }
-    .overlay-text p{
-        font-size: 15px;
-        line-height: 25px;
-    }
-    .emfield-content h1{
-        font-size: 22px;
-    }
-    .emfield-content{
-        top: 25px;
-        left: 25px;
-    }
-    .emfield-btn {
-        left: 25px;
-        bottom: 25px;
-    }
-    #letter5 select, #letter5 input{
-        height: 45px;
-    }
-    .about-content h2.about-head{
-        font-size: 40px;
-    }
-    .contact-box .form-group input, .contact-box .form-group select{
-        height: 65px;
-    }
-    .about-area {
-        height: 850px;
-    }
-    .pr-40{
+    .pr-100{
         padding-right: 15px;
     }
+    .form-group input, .form-group select{
+        height: 50px;
+        font-size: 16px;
+    }
     .form-title h4{
-        text-align: center;
-        margin-bottom: 25px;
+        font-size: 15px;
+    }
+    .navbar-brand .navbar-brand-regular {
+        max-width: 230px;
+    }
+    .navbar-sticky-on .navbar-brand-sticky{
+        max-width: 230px;
+    }
+    .enq-top{
+        font-size: 15px;
+        padding: 10px 25px;
+    }
+    .navbar{
+        padding-bottom: 0;
+    }
+    .welcome-form{
+        padding: 55px 35px;
+    }
+    .form-group input[type="submit"] {
+        height: 50px;
+    }
+    .affiliated-area{
+        padding-top: 250px;
+    }
+    .b-arch-area{
+        padding: 140px 0 100px;
+    }
+    .barch-main .head p{
+        font-size: 20px;
+    }
+    .barch-main .head h1{
+        font-size: 45px;
+    }
+    .barch-main .content p{
+        font-size: 16px;
+        line-height: 28px;
+    }
+}
+
+@media(max-width: 439px){
+    .navbar-brand .navbar-brand-regular {
+        max-width: 200px;
+    }
+    .navbar{
+        padding: 0 5px;
+    }
+    .enq-top{
+        font-size: 14px;
+        padding: 10px 24px;
+    }
+    .navbar-sticky-on .navbar-brand-sticky{
+        max-width: 200px;
+    }
+}
+
+@media(max-width: 376px){
+    .navbar-brand .navbar-brand-regular{
+        max-width: 180px;
+    }
+    .navbar-sticky-on .navbar-brand-sticky{
+        max-width: 180px;
     }
 }
