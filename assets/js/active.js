@@ -126,6 +126,56 @@
         }
     });
 
+    // :: 12.0 TEAM SLIDER ACTIVE CODE
+    $('.testi-slider.owl-carousel').owlCarousel({
+        loop: true,
+        margin: 20,
+        nav: false,
+        dots: true,
+        smartSpeed: 2000,
+        autoplay: false,
+        autoplayTimeout: 4000,
+        responsive: {
+            0: {
+                items: 1
+            },
+            576: {
+                items: 1
+            },
+            768: {
+                items: 1
+            },
+            992: {
+                items: 1
+            }
+        }
+    });
+
+    // :: 12.0 TEAM SLIDER ACTIVE CODE
+    $('.client-slider.owl-carousel').owlCarousel({
+        loop: true,
+        margin: 20,
+        nav: false,
+        dots: false,
+        smartSpeed: 2000,
+        autoplay: true,
+        autoplayTimeout: 2000,
+        responsive: {
+            0: {
+                items: 3
+            },
+            576: {
+                items: 5
+            },
+            768: {
+                items: 5
+            },
+            992: {
+                items: 7
+            }
+        }
+    });
+
     // :: 9.0 COUNTERUP ACTIVE CODE
     $('.counter').counterUp({
         delay: 10,

@@ -389,6 +389,12 @@
 /* ******************************
 :: 3.0 WELCOME AREA TO Start CSS
 ****************************** */
+@media(max-width: 1199px){
+    .single-testi{
+        max-width: 700px;
+    }
+}
+
 @media(max-width: 991px){
     .navbar{
         padding-top: 0;
@@ -406,6 +412,40 @@
     }
     .affiliated-area{
         text-align: center;
+    }
+    .about-area{
+        padding: 100px 0;
+    }
+    .about-img{
+        height: 400px;
+        width: 100%;
+        background-position: center;
+    }
+    .about-content{
+        margin-bottom: 100px;
+    }
+    .single-testi{
+        max-width: inherit;
+        margin-left: 0;
+        padding-top: 270px;
+        padding-left: 50px;
+    }
+    .testi-img{
+        top: 23%;
+        left: 20%;
+    }
+    .testi-area{
+        padding-bottom: 120px !important;
+    }
+    .testi-slider .owl-dots{
+        left: 50%;
+        padding-right: 0;
+        transform: translate(-50%,-50%);
+        bottom: -65px;
+        right: inherit;
+    }
+    .footer-phone{
+        padding-left: 0;
     }
 }
 
@@ -431,8 +471,8 @@
         top: 0;
         left: 0;
         max-width: 200px;
-        width: 200px;
-        height: 200px;
+        width: 120px;
+        height: 120px;
     }
     .bg-bottom{
         position: absolute;
@@ -447,6 +487,49 @@
     .b-arch-area{
         height: auto;
         padding-bottom: 80px;
+    }
+    .studio-box{
+        margin-bottom: 40px;
+    }
+    .fac-mainbox{
+        flex-direction: column;
+    }
+    .fac-box{
+        border-bottom: 2px solid #f5c08a;
+        border-right: 0;
+        padding-bottom: 25px;
+        margin-bottom: 50px;
+    }
+    .fac-box-last{
+        border-bottom: none;
+    }
+    .testi-head{
+        font-size: 35px;
+    }
+    .testi-img {
+        top: 20%;
+        left: 28%;
+    }
+    .footer-ad{
+        border-bottom: 1px solid #5d6c759c;
+        border-right: 0;
+        margin-bottom: 15px;
+        padding-bottom: 10px;
+    }
+    .footer-ad p{
+        font-size: 16px;
+    }
+    .footer-phone{
+        border-bottom: 1px solid #5d6c759c;
+        border-right: 0;
+        margin-bottom: 15px;
+        padding-bottom: 10px;
+    }
+    .footer-sec{
+        text-align: center;
+    }
+    .contact-box .form-group input, .contact-box .form-group select{
+        height: 60px;
     }
 }
 
@@ -487,7 +570,7 @@
         padding-top: 250px;
     }
     .b-arch-area{
-        padding: 140px 0 100px;
+        padding: 85px 0 100px;
     }
     .barch-main .head p{
         font-size: 20px;
@@ -498,6 +581,46 @@
     .barch-main .content p{
         font-size: 16px;
         line-height: 28px;
+    }
+    .course-header h2{
+        font-size: 26px;
+    }
+    .fac-mainbox{
+        flex-wrap: wrap;
+        flex-direction: unset;
+    }
+    .fac-box{
+        flex: 0 0 40%;
+    }
+    .about-btn{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .about-btn .brochure{
+        margin-bottom: 40px;
+    }
+    .about-btn .apply a{
+        padding: 18px 52px;
+    }
+    .about-img{
+        height: 250px;
+    }
+    .about-area {
+        padding: 80px 0;
+    }
+    .testi-img {
+        top: 15%;
+        left: 38%;
+    }
+    .single-testi{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .gallery-area{
+        text-align: center;
+    }
+    .gallery-img img{
+        width: 100%;
     }
 }
 

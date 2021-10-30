@@ -1073,7 +1073,7 @@ a,
     font-size: 18px;
     font-weight: 600;
     letter-spacing: 2px;
-    margin-top: 25px;
+    /* margin-top: 25px; */
     -webkit-box-shadow: 0 0 12px rgb(160 52 140 / 60%);
     box-shadow: 0 0 12px rgb(160 52 140 / 60%);
     font-family: 'Poppins', sans-serif;
@@ -1244,19 +1244,397 @@ a,
     background-position: center;
     background-size: cover;
     height: auto;
+    padding-top: 75px;
 }
 
 .course-header h2{
     color: #fff;
+    margin-bottom: 60px;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.studio-head{
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 25px;
+}
+
+.studio-head .img{
+    margin-right: 40px;
+}
+
+.studio-head .name h2{
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 30px;
+    letter-spacing: 2px;
+    margin-bottom: 0;
+}
+
+.studio-para{
+    margin-bottom: 25px;
+}
+
+.studio-para p{
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 27px;
+}
+
+.studio-para .studio-p{
+    max-width: 395px;
+}
+
+.studio-points{
+    padding-left: 18px;
+}
+
+.studio-points li{
+    list-style: disc;
+    color: #fff;
+    font-size: 15px;
+    margin-bottom: 3px;
+}
+
+.course-btn{
+    margin-top: 70px;
+}
+
+.course-btn a{
+    background-color: #e69746;
+    border: 1px solid #e69746;
+    color: #fff;
+    padding: 15px 40px;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all .3s ease;
+    border-radius: 10px;
+}
+
+.course-btn a:hover{
+    background-color: transparent;
+    color: #ffff;
+    border: 1px solid #e69746;
+}
+
+/* ******************************
+:: 10.0 Facilities AREA CSS
+****************************** */
+.facilities-area{
+    background-color: #e6a665;
+    padding-top: 80px;
+    padding-bottom: 150px;
+}
+
+.fac-mainbox{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.fac-box{
+    padding: 0 30px;
+    text-align: center;
+    border-right: 2px solid #f5c08a;
+    flex: 0 0 20%;
+}
+
+.fac-box-last{
+    border-right: 0;
+}
+
+.fac-box .fac-icon{
+    margin-bottom: 30px;
+}
+
+.fac-box .fac-text h3{
+    color: #2e2b7a;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.fac-head h1{
+        margin-bottom: 80px;
+        color: #2e2b7a;
+        font-size: 35px;
+        font-weight: 800;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+}
+
+/* ******************************
+:: 11.0 ABOUT AREA CSS
+****************************** */
+.about-area{
+    padding: 0;
+}
+
+.about-head{
     margin-bottom: 35px;
-    font-size: 35px;
+}
+
+.about-content{
+    padding-right: 25px;
+}
+
+.about-head span{
+    color: #21227c;
+    font-weight: 400;
+    font-size: 22px;
+    margin-bottom: 8px;
+}
+
+.about-head h3{
+    color: #21227c;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 32px;
+    letter-spacing: 1px;
+}
+
+.about-para p{
+    color: #2a2a2a;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 30px;
+    text-align: justify;
+}
+
+.about-btn{
+    display: flex;
+    align-items: center;
+}
+
+.about-btn .brochure{
+    margin-right: 20px;
+}
+
+.about-btn .brochure a{
+    display: flex;
+    align-items: center;
+    background-color: #21227c;
+    padding: 10px 32px;
+    color: #fff;
+    border-radius: 5px;
+    transition: all .3s ease;
+}
+
+.about-btn .brochure a h4{
+    color: #fff;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.about-btn .brochure a .btn-icon{
+    margin-right: 15px;
+}
+
+.about-btn .brochure a .btn-icon svg{
+    font-size: 40px;
+}
+
+.about-btn .brochure a:hover{
+    background-color: #e69746;
+    color: #fff;
+}
+
+.about-btn .apply a{
+    border: 2px solid #21227c;
+    color: #21227c;
+    padding: 18px 45px;
+    border-radius: 5px;
+    font-size: 19px;
+    font-weight: 500;
+    transition: all .3s ease;
+}
+
+.about-btn .apply a:hover{
+    border: 2px solid #e69746;
+    background-color: #e69746;
+    color: #fff;
+}
+
+.about-img{
+    background-image: url(../img/about.jpg);
+    position: relative;
+    margin-top: -65px;
+    height: 800px;
+    width: 960px;
+    background-size: cover;
+}
+
+/* ******************************
+:: 9.0 Testimonials AREA CSS
+****************************** */
+.testi-area{
+    background-color: #efefef;
+    padding: 80px 0 125px;
+}
+
+.testi-head{
+    color: #21227c;
+    font-weight: 700;
+    font-size: 42px;
+    margin-bottom: 50px;
+    letter-spacing: 1px;
+}
+
+.single-testi{
+    position: relative;
+    width: 100%;
+    max-width: 750px;
+    margin-left: 200px;
+    padding: 30px 80px 50px 175px;
+    background-color: #fff;
+    border-radius: 30px;
+}
+
+.testi-para p{
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #2a2a2a;
+    line-height: 30px;
+    margin-bottom: 25px;
+    text-indent: 100px;
+    text-align: justify;
+}
+
+.testi-name p{
+    color: #2a2a2a;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+.testi-name p span{
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.testi-img{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(-50%,-50%);
+}
+
+.testi-quote{
+    position: absolute;
+}
+
+.testi-para{
+    margin-top: 50px;
+}
+
+.testi-slider .owl-dots{
+    position: absolute;
+    right: 0;
+    padding-right: 160px;
+    bottom: -50px;
+}
+
+.testi-slider .owl-dots button{
+    width: 12px;
+    height: 12px;
+    background-color: #d1d5da;
+    margin-right: 10px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+}
+
+.testi-slider .owl-dots button.active{
+    background-color: #de974f;
+}
+
+
+
+/* ******************************
+:: 13.0 Client AREA CSS
+****************************** */
+.client-slider{
+    margin-top: 50px;
+}
+
+.cleint-area{
+    background-color: #efefef;
+    padding: 0 0 50px;
+}
+
+/* ******************************
+:: 14.0 GALLERY AREA CSS
+****************************** */
+.gallery-area{
+    padding: 90px 0;
+}
+
+.bg-top-full{
+        position: absolute;
+        background-image: url(../img/bg/barch-top.png);
+        background-position: center;
+        top: -50px;
+        left: 0;
+        max-width: 500px;
+        width: 500px;
+        height: 300px;
+        z-index: -1;
+}
+
+.bg-bottom-full{
+        position: absolute;
+        background-image: url(../img/bg/barch-bottom.png);
+        background-position: center;
+        bottom: -50px;
+        right: 0;
+        max-width: 500px;
+        width: 500px;
+        height: 300px;
+        z-index: -1;
+}
+
+.gallery-img{
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.gallery-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(22 92 206 / 90%);
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .3s ease;
+}
+
+.gallery-overlay a{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.gallery-overlay a svg{
+    font-size: 45px;
+    color: #fff;
+}
+
+.gallery-img:hover .gallery-overlay{
+    opacity: 1;
+    visibility: visible;
 }
 
 /* ******************************
 :: 9.0 ENQUIRY AREA CSS
 ****************************** */
 .enquiry-area{
-    background-color: #6d7b83;
+    background-color: #1a1b2e;
     padding-bottom: 0;
 }
 
@@ -1264,10 +1642,8 @@ a,
     color: #fff;
     margin-bottom: 50px;
     font-weight: 800;
-    font-size: 50px;
+    font-size: 45px;
 }
-
-
 
 .contact-box .form-group input,
 .contact-box .form-group textarea {
@@ -1319,9 +1695,21 @@ a,
     color: #caced1;
     box-shadow: 0 1px 5px rgb(0 0 0 / 10%);
     height: 85px;
-    font-size: 17px;
+    font-size: 18px;
     padding: 0 20px;
     border: none;
+    margin-top: 0;
+}
+
+.contact-box .form-group input[type="submit"]{
+    background-color: #e69746;
+    color: #fff;
+    transition: all .3s ease;
+}
+
+.contact-box .form-group input[type="submit"]:hover{
+    background-color: transparent;
+    border: 1px solid #e69746;
 }
 
 .contact-box .form-group{
@@ -1394,12 +1782,52 @@ a,
 }
 
 .social-icons .social li a:hover{
-    color: #ffc343 !important;
+    color: #e69746 !important;
 }
 
 .footer-sec{
     padding: 30px 0;
     border-top: 2px solid #5d6c759c;
+}
+
+.footer-ad{
+    border-right: 1px solid #5d6c759c;
+}
+
+.footer-phone{
+    border-right: 1px solid #5d6c759c;
+    padding-left: 100px;
+}
+
+.footer-ad p{
+    color: #caced1;
+}
+
+.footer-phone h3{
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 19px;
+    margin-bottom: 8px;
+}
+
+.footer-phone p a{
+    color: #caced1;
+    transition: all .3s ease;
+    font-size: 20px;
+}
+
+.footer-phone p a:hover{
+    color: #e69746;
+}
+
+.footer-phone p{
+    margin-bottom: 4px;
+}
+
+.last-footer{
+    background-color: #131318;
+    padding: 30px 0;
 }
 
 /* ******************************
@@ -1533,9 +1961,14 @@ a,
     cursor: pointer;
 }
 
+#letter5 input[type="submit"]{
+    font-size: 18px;
+    font-weight: 600;
+}
+
 #letter5 input:focus {
     outline: none !important;
-    border: 0.5px solid #9b1b44;
+    border: 0.5px solid #e69746;
     color: #193d6f;
 }
 
@@ -1580,3 +2013,27 @@ a,
     width: 280px;
 }
 
+.model-project-details .form-group input::-webkit-input-placeholder,
+.model-project-details .form-group textarea::-webkit-input-placeholder {
+    color: #fff;
+}
+
+.model-project-details .form-group input:-ms-input-placeholder,
+.model-project-details .form-group textarea:-ms-input-placeholder {
+    color: #fff;
+}
+
+.model-project-details .form-group input::placeholder,
+.model-project-details .form-group textarea::placeholder {
+    color: #fff;
+}
+
+.model-project-details input:focus,
+.model-project-details textarea:focus,
+.model-project-details select:focus {
+    -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e69746;
+    color: #fff;
+    background: transparent;
+}
