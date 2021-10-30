@@ -1372,7 +1372,7 @@ a,
 }
 
 .about-head{
-    margin-bottom: 35px;
+    margin-bottom: 34px;
 }
 
 .about-content{
@@ -1396,8 +1396,8 @@ a,
 
 .about-para p{
     color: #2a2a2a;
-    font-size: 18px;
-    line-height: 30px;
+    font-size: 16px;
+    line-height: 25px;
     margin-bottom: 30px;
     text-align: justify;
 }
