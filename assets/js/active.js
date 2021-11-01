@@ -162,16 +162,16 @@
         autoplayTimeout: 2000,
         responsive: {
             0: {
-                items: 3
+                items: 2
             },
             576: {
-                items: 5
+                items: 3
             },
             768: {
-                items: 5
+                items: 3
             },
             992: {
-                items: 7
+                items: 4
             }
         }
     });
